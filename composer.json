@@ -2,7 +2,7 @@
     "name": "refaltor/coinbase-sdk",
     "description": "Package to interact with the Coinbase API and create complex applications.",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.0-beta",
     "license": "MIT",
     "autoload": {
         "psr-4": {
