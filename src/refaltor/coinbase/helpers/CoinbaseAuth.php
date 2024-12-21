@@ -66,7 +66,6 @@ trait CoinbaseAuth
         }
 
         $json = $response->json();
-        var_dump($json);
         $access = new CoinbaseAccess($json['access_token'], $json['refresh_token'], $json['expires_in']);
         $this->setCoinbaseAccess($access);
         return $access;

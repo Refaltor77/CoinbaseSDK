@@ -11,8 +11,6 @@
 
 namespace refaltor\coinbase;
 
-use Illuminate\Http\Client\Factory;
-use Illuminate\Support\Facades\Facade;
 use refaltor\coinbase\helpers\CoinbaseAuth;
 use refaltor\coinbase\helpers\CoinbaseConnection;
 use refaltor\coinbase\modules\accounts\AccountsModule;
