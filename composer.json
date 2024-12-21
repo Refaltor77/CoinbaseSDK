@@ -1,0 +1,30 @@
+{
+    "name": "refaltor/coinbase-sdk",
+    "description": "Package to interact with the Coinbase API and create complex applications.",
+    "type": "library",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "refaltor\\coinbase\\": "src/refaltor/coinbase/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest"
+    },
+    "authors": [
+        {
+            "name": "Refaltor"
+        }
+    ],
+    "require": {
+        "illuminate/http": "*"
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.7"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
