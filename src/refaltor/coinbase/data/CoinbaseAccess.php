@@ -12,7 +12,7 @@ class CoinbaseAccess
     {
         $this->accessToken = $accessToken;
         $this->refreshToken = $refreshToken;
-        $this->refreshTokenExpireSeconds = time() + $refreshTokenExpireSeconds;
+        $this->refreshTokenExpireSeconds = $refreshTokenExpireSeconds;
     }
 
     public function getAccessToken(): string
